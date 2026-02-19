@@ -1,6 +1,9 @@
+import { useState } from "react";
+
 export type Card = {
     term: string;
     definition: string;
+    course: string;
 }
 
 type GlossaryItemProps = {
@@ -8,15 +11,32 @@ type GlossaryItemProps = {
 }
 
 export function GlossaryItem({ cards }: GlossaryItemProps) {
+    const [flippedIndex, setFlippedIndex] = useState<number | null>(null);
+
+    const handleFlip = (index: number) => {
+        setFlippedIndex(flippedIndex === index ? null : index);
+    };
+    
     return (
-        <div className='w-full'>
-            {cards.map((word) =>(
-                <div key={word.term} className="bg-slate-200 border border-slate-300 rounded-lg m-4 p-2 h-fit w-50">
-                <h5 className="text-black font-bold">{word.term}</h5>
-                <p>{word.definition}</p>
-            </div>
+        <>
+            {cards.map((word, index) =>(
+                <div  
+                    key={word.term} 
+                    onClick={() => handleFlip(index)}
+                    className=""
+                >
+                    <div className={`card ${flippedIndex === index ? 'flipped' : ''}`}>
+                        <div className="card-face bg-slate-200 border rounded-lg flex items-center justify-center p-4">
+                            <h5 className="font-bold text-black">
+                                {word.term}
+                            </h5>
+                        </div>
+                        <div className="card-face card-back bg-slate-300 border rounded-lg flex items-center justify-center p-4">
+                            <p> {word.definition}</p>
+                        </div>
+                    </div>
+                </div>
             ))}
-            
-        </div>
+        </>
     )
 }

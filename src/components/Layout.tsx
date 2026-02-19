@@ -7,7 +7,7 @@ interface LayoutProps {
 
 export function Layout({ children}: LayoutProps) {
     return (
-        <div className="flex-1 p-4 bg-slate-100 gap-4 overflow-auto">
+        <div className="min-h-screen p-4 bg-slate-100">
             {children}
         </div>
     )

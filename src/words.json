@@ -1,8 +1,235 @@
 
 
 [
-    { "term": "Närhetsprincipen", "definition": "Objekt som är nära varanda uppfattas som relaterade."},
-    { "term": "Kontrast", "definition": "Skillnaden mellan två element som gör att de sticker ut från varandra."},
-    { "term": "Användarcentrerad design", "definition": "En designmetod som fokuserar på användarens behov och upplevelser."}
+    { 
+        "term": "Närhetsprincipen", 
+        "definition": "Objekt som är nära varanda uppfattas som relaterade.",
+        "course": "UX"
+    },
+    { 
+        "term": "Kontrast", 
+        "definition": "Skillnaden mellan två element som gör att de sticker ut från varandra.",
+        "course": "UX"
+    },
+    { 
+        "term": "Användarcentrerad design", 
+        "definition": "En designmetod som fokuserar på användarens behov och upplevelser.",
+        "course": "UX"
+    },
+    { 
+        "term": "Responsiv design", 
+        "definition": "En designteknik som gör att en webbplats anpassar sig till olika skärmstorlekar och enheter.",
+        "course": "UX"
+    },
+    { 
+        "term": "Typografi", 
+        "definition": "Konsten och tekniken att arrangera text på ett sätt som gör den läsbar och estetiskt tilltalande.",
+        "course": "UX"
+    },
+    {
+        "term": "UI",
+        "definition": "User interface, det visuella gränssnittet som användaren interagerar med.",
+        "course": "UX"
+    },
+    {
+        "term": "Målgrupp",
+        "definition": "Användarna som produkten är designad för",
+        "course": "UX"
+    },
+    {
+        "term": "Empati",
+        "definition": "Förmågan att förstå och sätta sig in i användarens situation, behov och känslor",
+        "course": "UX"
+    },
+    {
+        "term": "Empatisera",
+        "definition": "Första steget i design thinking, ex intervjuer, enkäter, observationer, empathy maps.",
+        "course": "UX"
+    },
+    {
+        "term": "Perception",
+        "definition": "Hur användaren uppfattar och tolkar det hen ser och interagerar med",
+        "course": "UX"
+    },
+    {
+        "term": "Emotional design",
+        "definition": "Design som medvetet väcker känslor hos användaren, ex glädje, trugghet, tillit",
+        "course": "UX"
+    },
+    {
+        "term": "Emotional intelligence",
+        "definition": "Förmågan att förstå och ta hänsyn till användarens känslor",
+        "course": "UX"
+    },
+    {
+        "term": "UX deliverables",
+        "definition": "Konkreta resultat av UX-arbetet, ex personas, wireframes, prototyper, user journeys, moodboards",
+        "course": "UX"
+    },
+    {
+        "term": "User persona",
+        "definition": "Fiktiv men realistisk representation av en typisk användare",
+        "course": "UX"
+    },
+    {
+        "term": "Empathy map",
+        "definition": "Visualiserar vad användaren säger, tänker, gör och känner",
+        "course": "UX"
+    },
+    {
+        "term": "Flödesdiagram",
+        "definition": "Visar hur användaren navigerar genom systemet steg för steg",
+        "course": "UX"
+    },
+    {
+        "term": "Wireframe",
+        "definition": "Low fidelity skiss av layout och struktur",
+        "course": "UX"
+    },
+    {
+        "term": "Mockup",
+        "definition": "High fidelity statisk design som vosar färger, typsnitt, UI.komponenter",
+        "course": "UX"
+    },
+    {
+        "term": "Prototyp",
+        "definition": "Klickbar modell av designen som simulerar användningen",
+        "course": "UX"
+    },
+    {
+        "term": "User journey map",
+        "definition": "Visar hela användarens resa över tid, inkl känslor, steg, touchpoints, frustrationer etc",
+        "course": "UX"
+    },
+    {
+        "term": "User stories",
+        "definition": "Som [user] vill jag [göra något] så att [uppnå mål]",
+        "course": "UX"
+    },
+    {
+        "term": "User scenario",
+        "definition": "Kort berättelse om hur en användare använder produkten i en specifik situation",
+        "course": "UX"
+    },
+    {
+        "term": "Storyboard",
+        "definition": "Visuell berättelse (likt serierutor) som visar hur användaren interagerar med produkten i sitt sammanhang",
+        "course": "UX"
+    },
+    {
+        "term": "Moodboard", 
+        "definition": "Samling med visuella referenser som sätter känslan",
+        "course": "UX"
+    },
+    {
+        "term": "Färgtema",
+        "definition": "Definierat färgsystem för produkten, ex primary, secondary, accent, konstrast",
+        "course": "UX"
+    },
+    {
+        "term": "Designsystem",
+        "definition": "Bibliotek av återanvändbara komponenter & riktlinjer",
+        "course": "UX"
+    },
+    {
+        "term": "Grafisk profil",
+        "definition": "Övergripande visuella riktlinjer för varumärket inkl färger, typsnitt, typografi, logo",
+        "course": "UX"
+    },
+    {
+        "term": "Gestalt principles",
+        "definition": "Psykologiska principer för hur människor uppfattar visuella element, ec närhet, likhet, kontinuitet",
+        "course": "UX"
+    },
+    {
+        "term": "Figma",
+        "definition": "Design- och prototypverktyg som används i UI/UX",
+        "course": "UX"
+    },
+    {
+        "term": "CTA (Call to Action)",
+        "definition": "Det tydliga nästa steget som användaren uppmanas att ta",
+        "course": "UX"
+    },
+    {
+        "term": "Kognitiv tröskel",
+        "definition": "Hur mycket mental ansträngning som krävs för att förstå och använda något",
+        "course": "UX"
+    },
+    {
+        "term": "Färglära",
+        "definition": "Kunskap om hur färger samspelar, uppfattas och påverkar känslor, ex röd danger",
+        "course": "UX"
+    },
+    {
+        "term": "HSB",
+        "definition": "Hue, saturation, brightness - färgmodell som beskriver färger i termer av nyans, mättnad och ljusstyrka",
+        "course": "UX"
+    },
+    {
+        "term": "HMW-frågor",
+        "definition": "Öppna designfrågor som används i ideate-fasen. How might we [designa något] so that [uppnå mål]?",
+        "course": "UX"
+    },
+    {
+        "term": "Problem statement",
+        "definition": "Tydlig formulering av användarens problem. Ex: [User] har svårt att [göra något] när [situation]",
+        "course": "UX"
+    },
+    {
+        "term": "Project management software",
+        "definition": "Programvara som används för att planera, organisera och övervaka projektet",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Iteration",
+        "definition": "Kort arbetsperiod där teamet bygger något fungerande, ofta 1-4 veckor",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Inkrement",
+        "definition": "Resultat av iterationen, det nya fungerande sim lagt till i produkten",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Feedback loop",
+        "definition": "Cykeln där man bygger något, får feedback, förbättrar ex genom användartester",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "MVP (Minimum Viable Product)",
+        "definition": "Enklaste versionen av produkten som kan testas med användare för att få feedback",
+        "course":"Agilt arbete"
+    },
+    {
+        "term": "Plan-driven utveckling",
+        "definition": "Motsatsen till agil utveckling, ex vattenfallsmodellen",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Kravspecifikation",
+        "definition": "Dokument som beskriver funktionella och icke-funktionella krav",
+        "course":"Agilt arbete"
+    },
+    {
+        "term": "Big Design Ip Front (BDUF)",
+        "definition": "När man designar hela systemet i detalj innan man börjar bygga (ej agil)",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Scope creep",
+        "definition": "När projektets omfattning växer okontrollerat, ofta pga nya krav eller ändringar",
+        "course":"Agilt arbete"
+    },
+    {
+        "term": "Cone of uncertainty",
+        "definition": "Visar att säkerheten är allra störst i början av projektet, och sedan minskar",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Vattenfallsmodellen",
+        "definition": "Utvecklingsmodell där arbetet sker i fasta steg efter varandra: Krav → Design → Implementering → Test →Leverans. Man går inte tillbaka när man väl gått vidare.",
+        "course": "Agilt arbete"
+    }
 
 ]
