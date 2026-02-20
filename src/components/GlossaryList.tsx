@@ -23,7 +23,7 @@ export function GlossaryList({ cards}: GlossaryListProps) {
     return (
         <div className="flex flex-col flex-wrap content-center justify-center w-full">
             <h2 className="text-black font-bold text-xl">Glosor</h2>
-            <p>Här är alla dina glosor!<br/> Sortera efter kurs och vänd på korten för att se förklaringarna.</p>
+            <p className="text-text-inverted">Här är alla dina glosor!<br/> Sortera efter kurs och vänd på korten för att se förklaringarna.</p>
             
             <GlosSearch 
                 value={search} 
@@ -37,7 +37,7 @@ export function GlossaryList({ cards}: GlossaryListProps) {
     sm:grid-cols-2 
     lg:grid-cols-3 
     xl:grid-cols-4 
-    gap-6 mt-4">
+    gap-6 mt-4 flex justify-items-center">
                 <GlossaryItem cards={filteredCards} />
             </div>
         </div>

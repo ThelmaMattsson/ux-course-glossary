@@ -26,13 +26,13 @@ export function GlossaryItem({ cards }: GlossaryItemProps) {
                     className=""
                 >
                     <div className={`card ${flippedIndex === index ? 'flipped' : ''}`}>
-                        <div className="card-face bg-slate-200 border rounded-lg flex items-center justify-center p-4">
-                            <h5 className="font-bold text-black">
+                        <div className="card-face bg-primary hover:bg-primary-hover rounded-lg flex items-center justify-center p-4">
+                            <h5 className="font-bold text-text-inverted">
                                 {word.term}
                             </h5>
                         </div>
-                        <div className="card-face card-back bg-slate-300 border rounded-lg flex items-center justify-center p-4">
-                            <p> {word.definition}</p>
+                        <div className="card-face card-back bg-secondary rounded-lg flex items-center justify-center p-4">
+                            <p className="text-text-inverted"> {word.definition}</p>
                         </div>
                     </div>
                 </div>
