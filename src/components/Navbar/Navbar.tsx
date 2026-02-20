@@ -17,8 +17,8 @@ export function Navbar() {
         <>
             <div className="md:hidden fixed top-0 left-0 right-0 z-50 bg-primary text-white flex items-center justify-between p-4 border-b border-bg">
                 <h1 className="text-white text-2xl font-bold">Glosboken</h1>
-                <button className="text-2xl w-10 h-10 flex items-center justify-center bg-secondary hover:bg-secondary-hover rounded cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
-                    <FontAwesomeIcon icon={faBars} />
+                <button className="text-2xl w-10 h-10 flex items-center justify-center bg-white hover:bg-primary-hover rounded cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
+                    <FontAwesomeIcon icon={faBars} className="text-primary "/>
                 </button>
             </div>
 
