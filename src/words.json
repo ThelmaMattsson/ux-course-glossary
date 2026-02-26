@@ -895,5 +895,95 @@
         "term": "TDD (Test Driven Development)",
         "definition": "Utvecklingsmetod där man skriver tester först och kod sedan.",
         "course": "apputveckling"
+    },
+    {
+        "term": "Expo Snack",
+        "definition": "Webbplattform för att snabbt skapa och testa React Native-appar i webbläsaren.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "LogBox",
+        "definition": "React Native-funktion som visar varningar och felmeddelanden på ett tydligt sätt.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Sourcemaps",
+        "definition": "Filer som kopplar minifierad kod till originalkoden för enklare debugging.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "React Native DevTools",
+        "definition": "Verktyg för att inspektera, debugga och profilera React Native-appar.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Core Components",
+        "definition": "Grundläggande byggstenar i React Native, t.ex. View, Text, Image.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Platform module",
+        "definition": "Modul i React Native som låter dig köra kod specifikt för iOS eller Android.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Expo Router",
+        "definition": "Routing-lösning för Expo-appar för att navigera mellan skärmar och sidor.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "React Navigation",
+        "definition": "Populärt bibliotek för navigation i React Native-appar.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "React 19",
+        "definition": "Den senaste versionen av React med uppdateringar för prestanda och funktioner.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "React Compiler",
+        "definition": "Verktyg som översätter React-kod till körbar JavaScript.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Expo Application Services",
+        "definition": "Backend-tjänster från Expo som hanterar push-notiser, builds och mer.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "TanStack Query",
+        "definition": "Bibliotek för att hantera serverdata, cache och synkronisering i React.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Zustand",
+        "definition": "Lättviktigt state management-bibliotek för React och React Native.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "React Hook Form",
+        "definition": "Bibliotek för att hantera formulär och validering i React.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "New architecture",
+        "definition": "React Natives nya system med Fabric, JSI och TurboModules för bättre prestanda.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Fabric",
+        "definition": "Nya renderingsmotorn i React Native för snabbare UI-uppdateringar.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "JSI",
+        "definition": "JavaScript Interface som kopplar JS och native-kod direkt utan bridge.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "TurboModules",
+        "definition": "Nya moduler i React Native som laddas vid behov för bättre prestanda.",
+        "course": "apputveckling"
     }
 ]
