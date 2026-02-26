@@ -1,28 +1,26 @@
-
-
 [
-    { 
-        "term": "Närhetsprincipen", 
+    {
+        "term": "Närhetsprincipen",
         "definition": "Objekt som är nära varanda uppfattas som relaterade.",
         "course": "UX"
     },
-    { 
-        "term": "Kontrast", 
+    {
+        "term": "Kontrast",
         "definition": "Skillnaden mellan två element som gör att de sticker ut från varandra.",
         "course": "UX"
     },
-    { 
-        "term": "Användarcentrerad design", 
+    {
+        "term": "Användarcentrerad design",
         "definition": "En designmetod som fokuserar på användarens behov och upplevelser.",
         "course": "UX"
     },
-    { 
-        "term": "Responsiv design", 
+    {
+        "term": "Responsiv design",
         "definition": "En designteknik som gör att en webbplats anpassar sig till olika skärmstorlekar och enheter.",
         "course": "UX"
     },
-    { 
-        "term": "Typografi", 
+    {
+        "term": "Typografi",
         "definition": "Konsten och tekniken att arrangera text på ett sätt som gör den läsbar och estetiskt tilltalande.",
         "course": "UX"
     },
@@ -117,7 +115,7 @@
         "course": "UX"
     },
     {
-        "term": "Moodboard", 
+        "term": "Moodboard",
         "definition": "Samling med visuella referenser som sätter känslan",
         "course": "UX"
     },
@@ -177,6 +175,96 @@
         "course": "UX"
     },
     {
+        "term": "Microinteractions",
+        "definition": "Små visuella eller funktionella svar på användarhandlingar, t.ex. knappanimationer.",
+        "course": "UX"
+    },
+    {
+        "term": "Användarvänligt",
+        "definition": "En produkt som är enkel och intuitiv att använda.",
+        "course": "UX"
+    },
+    {
+        "term": "Usability",
+        "definition": "Hur lätt och effektivt en användare kan använda en produkt för att nå sina mål.",
+        "course": "UX"
+    },
+    {
+        "term": "Användbarhetstestning (usability testing)",
+        "definition": "Metod där riktiga användare testar produkten för att identifiera problem.",
+        "course": "UX"
+    },
+    {
+        "term": "A/B testing",
+        "definition": "Test där två versioner av en sida jämförs för att se vilken som presterar bäst.",
+        "course": "UX"
+    },
+    {
+        "term": "Användarintervjuer",
+        "definition": "Samtal med användare för att förstå behov, beteenden och problem.",
+        "course": "UX"
+    },
+    {
+        "term": "Card sorting",
+        "definition": "Metod för att organisera information på ett sätt som är logiskt för användare.",
+        "course": "UX"
+    },
+    {
+        "term": "Heuristic evaluation",
+        "definition": "Expertbedömning av en produkt mot etablerade användbarhetsprinciper.",
+        "course": "UX"
+    },
+    {
+        "term": "Tillgänglighet / accessibility",
+        "definition": "Att göra produkter användbara för alla, inklusive personer med funktionsvariationer.",
+        "course": "UX"
+    },
+    {
+        "term": "WCAG (Web Content Accessibility Guidelines)",
+        "definition": "Riktlinjer för att webbinnehåll ska vara tillgängligt för alla.",
+        "course": "UX"
+    },
+    {
+        "term": "Inkluderande design",
+        "definition": "Design som tar hänsyn till olika användares behov och förutsättningar.",
+        "course": "UX"
+    },
+    {
+        "term": "Responsiv design",
+        "definition": "Design som anpassar sig efter olika skärmstorlekar och enheter.",
+        "course": "UX"
+    },
+    {
+        "term": "Mobile-first",
+        "definition": "Designstrategi där mobilversionen prioriteras innan desktop.",
+        "course": "UX"
+    },
+    {
+        "term": "ARIA",
+        "definition": "Teknik för att göra webbinnehåll mer tillgängligt via extra attribut.",
+        "course": "UX"
+    },
+    {
+        "term": "role-attribute i HTML",
+        "definition": "HTML-attribut som beskriver elementets roll för skärmläsare.",
+        "course": "UX"
+    },
+    {
+        "term": "Funktionsvariation",
+        "definition": "Variation i användares fysiska, sensoriska eller kognitiva förmågor.",
+        "course": "UX"
+    },
+    {
+        "term": "Deceptive design pattern",
+        "definition": "Design som avsiktligt lurar användaren att göra något de inte vill.",
+        "course": "UX"
+    },
+    {
+        "term": "Semantisk HTML",
+        "definition": "HTML som använder taggar för att ge mening åt innehållet, t.ex. <header>, <article>.",
+        "course": "UX"
+    },
+    {
         "term": "Project management software",
         "definition": "Programvara som används för att planera, organisera och övervaka projektet",
         "course": "Agilt arbete"
@@ -199,7 +287,7 @@
     {
         "term": "MVP (Minimum Viable Product)",
         "definition": "Enklaste versionen av produkten som kan testas med användare för att få feedback",
-        "course":"Agilt arbete"
+        "course": "Agilt arbete"
     },
     {
         "term": "Plan-driven utveckling",
@@ -209,7 +297,7 @@
     {
         "term": "Kravspecifikation",
         "definition": "Dokument som beskriver funktionella och icke-funktionella krav",
-        "course":"Agilt arbete"
+        "course": "Agilt arbete"
     },
     {
         "term": "Big Design Up Front (BDUF)",
@@ -219,7 +307,7 @@
     {
         "term": "Scope creep",
         "definition": "När projektets omfattning växer okontrollerat, ofta pga nya krav eller ändringar",
-        "course":"Agilt arbete"
+        "course": "Agilt arbete"
     },
     {
         "term": "Cone of uncertainty",
@@ -231,10 +319,397 @@
         "definition": "Utvecklingsmodell där arbetet sker i fasta steg efter varandra: Krav → Design → Implementering → Test →Leverans. Man går inte tillbaka när man väl gått vidare.",
         "course": "Agilt arbete"
     },
+
     {
-    "term": "Native app",
-    "definition": "App som byggs för ett specifikt operativsystem (ex i Swift för iOS, Kotlin för Android).",
-    "course": "apputveckling"
+        "term": "Agile",
+        "definition": "Ett arbetssätt för mjukvaruutveckling som fokuserar på flexibilitet, samarbete, snabb feedback och kontinuerliga leveranser.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Scrum",
+        "definition": "Ett agilt ramverk där arbete delas upp i sprintar med tydliga roller, ceremonier och artefakter.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Kanban",
+        "definition": "Agil metod som fokuserar på visualisering av arbetsflöde, begränsning av pågående arbete (WIP) och kontinuerlig leverans.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Extreme Programming",
+        "definition": "Agil metod med fokus på kodkvalitet, testning, parprogrammering och täta leveranser.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "SAFe (Scaled Agile Framework)",
+        "definition": "Ramverk för att skala agila arbetssätt till stora organisationer och flera team.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Lean Software Development",
+        "definition": "Agil filosofi inspirerad av Lean-produktion med fokus på att eliminera slöseri och maximera värde.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Product Owner",
+        "definition": "Person som ansvarar för produktens backlog, prioriteringar och affärsvärde.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Scrum master",
+        "definition": "Person som hjälper teamet följa Scrum, tar bort hinder och faciliterar processen.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Development team",
+        "definition": "Gruppen utvecklare som bygger produkten under sprinten.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Stakeholder",
+        "definition": "Person eller grupp som påverkas av eller har intresse i produkten.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Sprint planning",
+        "definition": "Möte där teamet planerar vad som ska göras under sprinten.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Daily standup / Daily scrum",
+        "definition": "Kort dagligt möte där teamet synkar status och hinder.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Sprint review",
+        "definition": "Möte där teamet visar vad som byggts under sprinten för stakeholders.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Sprint retrospective",
+        "definition": "Möte där teamet reflekterar över processen och förbättringar.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Backlog refinement",
+        "definition": "Aktivitet där backlog-poster förtydligas och uppskattas inför kommande sprintar.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Product backlog",
+        "definition": "Prioriterad lista över allt arbete som behövs i produkten.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Sprint backlog",
+        "definition": "De uppgifter teamet valt att genomföra under en sprint.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "User story",
+        "definition": "Kort beskrivning av en funktion ur användarens perspektiv.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Definition of Done (DoD)",
+        "definition": "Kriterier som avgör när en uppgift anses färdig.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Definition of Ready (DoR)",
+        "definition": "Kriterier som avgör när en uppgift är redo att börja arbeta med.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Burndown chart",
+        "definition": "Diagram som visar hur mycket arbete som återstår i sprinten.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Story points",
+        "definition": "Måttenhet för att uppskatta komplexitet eller arbetsinsats.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Planning poker",
+        "definition": "Teknik där teamet gemensamt uppskattar uppgifter med kort.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Velocity",
+        "definition": "Hur mycket arbete ett team normalt klarar per sprint.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Time-boxing",
+        "definition": "Att sätta en fast tidsram för en aktivitet.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "MVP (Minimum viable product)",
+        "definition": "Minsta möjliga produkt med tillräcklig funktionalitet för att skapa värde och få feedback.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Continuous Integration / Continuous Delivery (CI/CD)",
+        "definition": "Automatiserad process för att testa, bygga och leverera kod kontinuerligt.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Technical Debt",
+        "definition": "Konsekvenser av snabba tekniska lösningar som kräver framtida förbättringar.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Pair Programming",
+        "definition": "Två utvecklare arbetar tillsammans vid samma kod.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Test-driven development (TDD)",
+        "definition": "Metod där tester skrivs före koden.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Incremental development",
+        "definition": "Utveckling där funktioner byggs stegvis i små delar.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Epic",
+        "definition": "Stor funktion eller mål som delas upp i mindre user stories.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Theme",
+        "definition": "Samling relaterade epics eller funktioner kring ett gemensamt mål.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Acceptance criteria",
+        "definition": "Specifika krav som måste uppfyllas för att en user story ska godkännas.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Sprint goal",
+        "definition": "Övergripande mål för sprinten.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Product vision",
+        "definition": "Långsiktig målbild för produkten.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Release planning",
+        "definition": "Planering av när funktioner ska levereras till användare.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "MoSCoW",
+        "definition": "Prioriteringsmetod: Must, Should, Could, Won’t.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Cross-functional team",
+        "definition": "Team med alla kompetenser som behövs för att leverera produkten.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Swarming / mobbing",
+        "definition": "Flera personer arbetar tillsammans på samma uppgift samtidigt.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Three questions",
+        "definition": "Vad gjorde jag igår? Vad ska jag göra idag? Finns hinder?",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Impediment / blocker",
+        "definition": "Problem som hindrar teamets arbete.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Information Radiator",
+        "definition": "Synlig informationsyta som visar projektstatus (ex kanban-board).",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Refactoring",
+        "definition": "Förbättring av kodstruktur utan att ändra funktionalitet.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Code Review",
+        "definition": "Granskning av kod av andra utvecklare.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Spike",
+        "definition": "Tidsbegränsad undersökning för att lära sig något tekniskt.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Feature toggle / feature flag",
+        "definition": "Teknik för att slå av eller på funktioner utan ny deploy.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Vertical slicing",
+        "definition": "Att utveckla funktioner end-to-end i små delar istället för lager för lager.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "INVEST",
+        "definition": "Principer för bra user stories: Independent, Negotiable, Valuable, Estimable, Small, Testable.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "WIP Limits",
+        "definition": "Begränsning av hur många uppgifter som får vara pågående samtidigt.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Cycle time",
+        "definition": "Tid från att arbete startar tills det är klart.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Lead time",
+        "definition": "Tid från att arbete efterfrågas tills det levereras.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Throughput",
+        "definition": "Antal uppgifter som levereras under en viss tid.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Cumulative Flow Diagram",
+        "definition": "Diagram som visar arbetsflöde och flaskhalsar över tid.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Empiricism",
+        "definition": "Beslut baseras på observation, erfarenhet och data.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Inspect and adapt",
+        "definition": "Kontinuerligt förbättra genom att utvärdera och justera.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Sustainable Pace",
+        "definition": "Arbetstakt som kan hållas över tid utan utbrändhet.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Servant leadership",
+        "definition": "Ledarskap där ledaren stöttar teamet istället för att styra.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Transparency",
+        "definition": "Öppenhet kring arbete, status och problem.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "The three pillars",
+        "definition": "Scrums tre pelare: transparens, inspektion och anpassning.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Three Cs",
+        "definition": "Card, Conversation, Confirmation — modell för user stories.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Timebox",
+        "definition": "Fast tidsram för en aktivitet (ex sprint).",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Increment",
+        "definition": "Den färdiga funktionalitet som levereras efter en sprint.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Potentially Shippable",
+        "definition": "Kod som är redo att släppas till användare.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Sprint Zero",
+        "definition": "Förberedande sprint innan utveckling startar.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Hardening Sprints",
+        "definition": "Sprintar för stabilisering, testning och buggrättning.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Minimum Marketable Feature (MMF)",
+        "definition": "Minsta funktion som ger affärsvärde till användare.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Value-driven development",
+        "definition": "Utveckling där prioriteringar styrs av affärsvärde.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "YAGNI (You ain't gonna need it)",
+        "definition": "Princip att inte bygga funktioner förrän de verkligen behövs.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Muda",
+        "definition": "Slöseri som inte skapar värde (Lean-begrepp).",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Build-Measure-Learn",
+        "definition": "Lean Startup-loop: bygg, mät resultat, lär och förbättra.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Scrumban",
+        "definition": "Kombination av Scrum och Kanban.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Self-organizing team",
+        "definition": "Team som själva bestämmer hur arbetet ska utföras.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "T-shaped person",
+        "definition": "Person med bred kunskap och djup expertis inom ett område.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Psychological safety",
+        "definition": "Miljö där teammedlemmar vågar uttrycka idéer och misstag.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Agile manifesto",
+        "definition": "Grundprinciper för agil utveckling som betonar människor, samarbete och fungerande mjukvara.",
+        "course": "Agilt arbete"
+    },
+    {
+        "term": "Working software",
+        "definition": "Princip att fungerande mjukvara är viktigaste måttet på framsteg.",
+        "course": "Agilt arbete"
+    },
+
+    {
+        "term": "Native app",
+        "definition": "App som byggs för ett specifikt operativsystem (ex i Swift för iOS, Kotlin för Android).",
+        "course": "apputveckling"
     },
     {
         "term": "Hybrid app",
@@ -421,5 +896,4 @@
         "definition": "Utvecklingsmetod där man skriver tester först och kod sedan.",
         "course": "apputveckling"
     }
-
 ]
