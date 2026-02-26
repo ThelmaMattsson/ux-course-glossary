@@ -13,11 +13,12 @@ export function GlosSearch({ value, onChange, course, onCourseChange }: GlosSear
                 <select
                 value={course}
                 onChange={(e) => onCourseChange(e.target.value)}
-                className="border-1 border-gray-400 p-2 rounded-md text-text-inverted"
+                className="border-1 border-gray-400 p-2 rounded-md text-text-inverted cursor-pointer"
             >
                 <option value="All">Visa alla</option>
                 <option value="UX">UX</option>
                 <option value="Agilt arbete">Agilt arbete</option>
+                <option value="apputveckling">Apputveckling</option>
             </select>
             </div>
             <label htmlFor="glos-search" className="block text-sm font-medium text-text-inverted mb-1">Sök</label>

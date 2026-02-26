@@ -26,7 +26,7 @@ export function GlossaryItem({ cards }: GlossaryItemProps) {
                     className=""
                 >
                     <div className={`card ${flippedIndex === index ? 'flipped' : ''}`}>
-                        <div className="card-face bg-primary hover:bg-primary-hover rounded-lg flex items-center justify-center p-4">
+                        <div className="card-face bg-primary hover:bg-primary-hover rounded-lg flex items-center justify-center p-4 text-center">
                             <h5 className="font-bold text-text-inverted">
                                 {word.term}
                             </h5>
