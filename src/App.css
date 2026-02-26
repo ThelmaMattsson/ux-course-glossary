@@ -1,16 +1,10 @@
-
-
-/* .card-container {
-    perspective: 1000px;
-} */
-
 .card {
     position: relative;
     width: 240px;
     max-width: 240px;
     height: 160px;
     transform-style: preserve-3d;
-    transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+    transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
     cursor: pointer;
 }
 
@@ -29,4 +23,12 @@
 
 .card-back {
     transform: rotateY(180deg);
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 300px;
+        max-width: 300px;
+        height: 200px;
+    }
 }

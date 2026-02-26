@@ -230,11 +230,6 @@
         "course": "UX"
     },
     {
-        "term": "Responsiv design",
-        "definition": "Design som anpassar sig efter olika skärmstorlekar och enheter.",
-        "course": "UX"
-    },
-    {
         "term": "Mobile-first",
         "definition": "Designstrategi där mobilversionen prioriteras innan desktop.",
         "course": "UX"
