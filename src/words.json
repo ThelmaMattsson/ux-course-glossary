@@ -230,6 +230,196 @@
         "term": "Vattenfallsmodellen",
         "definition": "Utvecklingsmodell där arbetet sker i fasta steg efter varandra: Krav → Design → Implementering → Test →Leverans. Man går inte tillbaka när man väl gått vidare.",
         "course": "Agilt arbete"
+    },
+    {
+    "term": "Native app",
+    "description": "App som byggs för ett specifikt operativsystem (ex i Swift för iOS, Kotlin för Android).",
+    "course": "apputveckling"
+    },
+    {
+        "term": "Hybrid app",
+        "description": "App byggd med webbteknik (HTML, CSS, JS) som körs i en native container. Kan installeras som app men är i grunden en webbapplikation.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Hybrid Native",
+        "description": "Hybridlösning som använder native komponenter via ramverk (ex React Native).",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Cross-platform app development",
+        "description": "Att utveckla appar som fungerar på flera plattformar från samma kodbas (iOS, Android, web).",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Cross-platform native",
+        "description": "Cross-platform men med native rendering (ex React Native, Flutter), dvs inte bara en webview.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Web apps",
+        "description": "Applikationer som körs i webbläsaren utan installation.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "PWA (Progressive Web App)",
+        "description": "Webbapp som kan installeras på en enhet, fungera offline och skicka pushnotiser.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "API (Application Programming Interface)",
+        "description": "Ett gränssnitt som låter olika program prata med varandra (frontend <-> backend).",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Native APIs",
+        "description": "Operativsystemets egna APIer för funktioner som kamera, GPS, notiser etc.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "WebSockets",
+        "description": "Protokoll för realtidskommunikation mellan klient och server (ex i chatt, spel, live-data).",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Flutter",
+        "description": "Cross-platform UI-ramverk från Google som använder språket Dart.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Ionic",
+        "description": "Hybrid-ramverk från Ionic för mobilappar med webbteknik.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "CapacitorJS",
+        "description": "Native bridge (också från Ionic) som låter webbappar använda mobilens native funktioner.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "PhoneGap",
+        "description": "Tidigare hybridramverk från Adobe (nedlagt). Byggde på Cordova.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Cordova",
+        "description": "Verktyg som paketerar webbappar till mobilappar och ger tillgång till native funktioner via plugin.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Xamarin",
+        "description": "Cross-platform-ramverk från Microsoft som använder C#.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "MAUI (.NET MAUI)",
+        "description": "Efterföljare till Xamarin för att bygga appar i .NET.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Sencha Touch",
+        "description": "JS-ramverk för mobilappar från Sencha (ej vanligt idag).",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Electron",
+        "description": "Ramverk för desktopappar med webbteknik (ex VSCode), ursprungligen från GitHub.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Expo",
+        "description": "Verktyg och plattform runt React Native som förenklar utveckling.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Nativewind",
+        "description": "Tailwind-liknande styling för React Native.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Tamagui",
+        "description": "UI-system för React Native och web med fokus på prestanda.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Unistyles",
+        "description": "Stylingbibliotek för React Native med bättre typstöd och prestanda.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Workbox",
+        "description": "Bibliotek från Google för att hantera service workers och offline-funktioner i PWA.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "PWA Builder",
+        "description": "Verktyg från Microsoft som hjälper att paketera PWA till installerbara appar.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Metro Bundler",
+        "description": "JS-bundler som används i React Native.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Lighthouse",
+        "description": "Analysverktyg i Chrome från Google för prestanda, tillgänglighet och SEO.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Chrome DevTools",
+        "description": "Utvecklarverktyg inbyggt i Chrome för debugging och analys.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "JetBrains",
+        "description": "Företag som gör utvecklings-IDE:er som WebStorm och IntelliJ IDEA.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Swift",
+        "description": "Primärt språk för iOS-utveckling.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Objective-C",
+        "description": "Äldre språk för iOS/macOS.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Kotlin",
+        "description": "Modernt språk för Android-utveckling.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Dart",
+        "description": "Språk som används i Flutter.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "C#",
+        "description": "Språk i .NET-ekosystemet (Xamarin, MAUI).",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Python",
+        "description": "Allmänt programmeringsspråk (backend, AI, scripting, ibland appar).",
+        "course": "apputveckling"
+    },
+    {
+        "term": "SDK (Software Development Kit)",
+        "description": "Samling verktyg, bibliotek och dokumentation för att utveckla mot en plattform.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "Enhetstest (unit test)",
+        "description": "Tester som verifierar små delar av kod isolerat.",
+        "course": "apputveckling"
+    },
+    {
+        "term": "TDD (Test Driven Development)",
+        "description": "Utvecklingsmetod där man skriver tester först och kod sedan.",
+        "course": "apputveckling"
     }
 
 ]
