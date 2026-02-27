@@ -17,8 +17,12 @@ export function FilterCourse({ course, onCourseChange }: FilterCourseProps) {
                     id="course-filter"
                     value={course}
                     onChange={(e) => onCourseChange(e.target.value)}
+                    defaultValue={'Välj en kurs'}
                     className="border-1 border-gray-200 p-2 bg-white rounded-md text-text-inverted cursor-pointer"
                 >
+                    <option value="" disabled className="text-gray">
+                        Välj kurs...
+                    </option>
                     <option value="UX">UX</option>
                     <option value="Agilt arbete">Agilt arbete</option>
                     <option value="apputveckling">Apputveckling</option>

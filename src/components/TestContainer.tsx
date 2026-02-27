@@ -11,7 +11,7 @@ function shuffleArray<T>(array: T[]): T[] {
 }
 
 export default function TestContainer({ cards }: Props) {
-    const [courseFilter, setCourseFilter] = useState<string>('UX')
+    const [courseFilter, setCourseFilter] = useState<string>('')
     const [currentIndex, setCurrentIndex] = useState(0)
     const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
     const [hasAnswered, setHasAnswered] = useState(false)
@@ -38,12 +38,12 @@ export default function TestContainer({ cards }: Props) {
         if (!currentCard) return []
 
         const wrongAnswers = shuffleArray(
-            cards.filter((c) => c.term !== currentCard.term)
+            filteredCards.filter((c) => c.term !== currentCard.term)
         ).slice(0, 3)
 
         const options = shuffleArray([currentCard, ...wrongAnswers])
         return options
-    }, [currentCard, cards])
+    }, [currentCard, filteredCards])
 
     const handleAnswer = (definition: string) => {
         if (hasAnswered) return
@@ -58,7 +58,20 @@ export default function TestContainer({ cards }: Props) {
     }
 
     if (!currentCard) {
-        return <p>Inga glosor hittades, välj en kurs!</p>
+        return (
+            <div className="w-full px-1 sm:px-1">
+                <FilterCourse
+                    course={courseFilter}
+                    onCourseChange={(value) => {
+                        setCourseFilter(value)
+                        setCurrentIndex(0)
+                    }}
+                />
+                <p className="text-black">
+                    Inga glosor hittades, välj en kurs!
+                </p>
+            </div>
+        )
     }
 
     return (
@@ -110,18 +123,6 @@ export default function TestContainer({ cards }: Props) {
                     {currentIndex + 1} / {filteredCards.length}
                 </p>
             </div>
-
-            {/* {cards.map((word) => (
-                <div key={word.term} className="">
-                    <div
-                        className={`rounded-lg flex items-center justify-center p-4 text-center ${word.course === 'UX' ? 'bg-pink-400 hover:bg-pink-500' : word.course === 'Agilt arbete' ? 'bg-green-400 hover:bg-green-500' : word.course === 'apputveckling' ? 'bg-red-400 hover:bg-red-500' : 'bg-gray-500'}`}
-                    >
-                        <h5 className="font-bold text-text-inverted">
-                            {word.term}
-                        </h5>
-                    </div>
-                </div>
-            ))} */}
         </div>
     )
 }
