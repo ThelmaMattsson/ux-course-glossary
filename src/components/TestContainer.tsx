@@ -91,7 +91,7 @@ export default function TestContainer({ cards }: Props) {
                             <button
                                 key={option.definition}
                                 onClick={() => handleAnswer(option.definition)}
-                                className={`h-34 flex items-center text-xs justify-center text-center rounded-lg p-3 transition cursor-pointer overflow-scroll ${bgColor}`}
+                                className={`h-50 flex items-center text-s justify-center text-center rounded-lg p-3 transition cursor-pointer overflow-scroll ${bgColor}`}
                             >
                                 {option.definition}
                             </button>
