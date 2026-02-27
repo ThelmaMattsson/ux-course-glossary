@@ -1,0 +1,29 @@
+type FilterCourseProps = {
+    course: string
+    onCourseChange: (value: string) => void
+}
+
+export function FilterCourse({ course, onCourseChange }: FilterCourseProps) {
+    return (
+        <div>
+            <div>
+                <label
+                    htmlFor="course-filter"
+                    className="block text-sm text-text-inverted font-medium mb-1"
+                >
+                    Välj kurs
+                </label>
+                <select
+                    id="course-filter"
+                    value={course}
+                    onChange={(e) => onCourseChange(e.target.value)}
+                    className="border-1 border-gray-200 p-2 bg-white rounded-md text-text-inverted cursor-pointer"
+                >
+                    <option value="UX">UX</option>
+                    <option value="Agilt arbete">Agilt arbete</option>
+                    <option value="apputveckling">Apputveckling</option>
+                </select>
+            </div>
+        </div>
+    )
+}

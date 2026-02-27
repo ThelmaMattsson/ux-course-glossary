@@ -13,7 +13,10 @@ export default function AppRoutes() {
                 path="/glossary"
                 element={<GlossaryList cards={words as Card[]} />}
             />
-            <Route path="/glosTest" element={<GlosTest />} />
+            <Route
+                path="/glosTest"
+                element={<GlosTest cards={words as Card[]} />}
+            />
         </Routes>
     )
 }
