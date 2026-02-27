@@ -33,7 +33,7 @@ export function Navbar() {
                             key={link.to}
                             to={link.to}
                             onClick={() => setIsOpen(false)}
-                            className="hover:bg-primary-hover transition-colors"
+                            className=" transition-colors"
                         >
                             {link.label}
                         </Link>

@@ -1,51 +1,49 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
-  /* UI colors & brand colors */
-  --color-primary: #FF4D86;
-  --color-primary-hover: #fe77a2;
-  --color-primary-active: #ff1a5c;
+    /* UI colors & brand colors */
+    --color-primary: #ff8eb2;
+    --color-primary-hover: #ffb5cc;
+    --color-primary-active: #ff3c73;
 
-  --color-secondary: #FFCAA6;
-  --color-secondary-hover: #ffddc6;
-  --color-secondary-active: #ffb380;
-  
-  --color-bg: #FFF2F2;
-  --color-bg-secondary: #F9E5E5;
-  --color-surface: #FFFFFF;
-  --color-surface-hover: #F0F0F0;
-  --color-surface-active: #E0E0E0;
-  --color-border: #E0E0E0;
-  --color-border-muted: #C0C0C0;
+    --color-secondary: #ffcaa6;
+    --color-secondary-hover: #ffddc6;
+    --color-secondary-active: #ffb380;
 
-  /* Semantic colors */
-  --color-success: #4CAF50;
-  --color-warning: #FFC107;
-  --color-danger: #F44336;
-  --color-info: #2196F3;
+    --color-bg: #fff2f2;
+    --color-bg-secondary: #f9e5e5;
+    --color-surface: #ffffff;
+    --color-surface-hover: #f0f0f0;
+    --color-surface-active: #e0e0e0;
+    --color-border: #e0e0e0;
+    --color-border-muted: #c0c0c0;
 
-  /* Text colors */
-  --color-text: #FFFFFF;
-  --color-text-muted: #B0B0B0;
-  --color-text-inverted: #000000;
-  --color-heading: #FFFFFF;
+    /* Semantic colors */
+    --color-success: #4caf50;
+    --color-warning: #ffc107;
+    --color-danger: #f44336;
+    --color-info: #2196f3;
 
-  /* Buttons ksk ej neccessary i små projekt men kan vara kul */
-  /* --button-primary-bg --button-primary-bg-hover --button-primary-text */
+    /* Text colors */
+    --color-text: #ffffff;
+    --color-text-muted: #b0b0b0;
+    --color-text-inverted: #000000;
+    --color-heading: #ffffff;
 
-
+    /* Buttons ksk ej neccessary i små projekt men kan vara kul */
+    /* --button-primary-bg --button-primary-bg-hover --button-primary-text */
 }
 
 @theme {
@@ -57,7 +55,6 @@
     --color-bg: var(--color-bg);
     --color-bg-secondary: var(--color-bg-secondary);
 
-    
     --color-surface: var(--color-surface);
     --color-surface-hover: var(--color-surface-hover);
     --color-surface-active: var(--color-surface-active);
@@ -76,8 +73,7 @@
 }
 
 body {
-  margin: 0;
-  width: 100%;
-  min-height: 100vh;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
 }
-
