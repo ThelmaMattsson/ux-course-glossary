@@ -980,5 +980,470 @@
         "term": "TurboModules",
         "definition": "Nya moduler i React Native som laddas vid behov för bättre prestanda.",
         "course": "apputveckling"
+    },
+    {
+        "term": "DBMS",
+        "definition": "Programvara som hanterar databaser och gör det möjligt att lagra, hämta och ändra data.",
+        "course": "databaser"
+    },
+    {
+        "term": "RDBMS",
+        "definition": "Relationsdatabashanterare som lagrar data i tabeller med relationer.",
+        "course": "databaser"
+    },
+    {
+        "term": "Databas",
+        "definition": "Strukturerad samling data som kan lagras, organiseras och hämtas.",
+        "course": "databaser"
+    },
+    {
+        "term": "Databashanterare",
+        "definition": "System eller program som ansvarar för administration av en databas.",
+        "course": "databaser"
+    },
+    {
+        "term": "PostgreSQL",
+        "definition": "Öppen källkod relationsdatabas känd för avancerade funktioner.",
+        "course": "databaser"
+    },
+    {
+        "term": "MySQL",
+        "definition": "Populär relationsdatabas ofta använd i webbapplikationer.",
+        "course": "databaser"
+    },
+    {
+        "term": "SQLite",
+        "definition": "Lättviktig relationsdatabas lagrad i en enda fil.",
+        "course": "databaser"
+    },
+    {
+        "term": "SaaS",
+        "definition": "Programvara som levereras via internet istället för att installeras lokalt.",
+        "course": "databaser"
+    },
+    {
+        "term": "Normalisering",
+        "definition": "Process att strukturera tabeller för att minska redundans.",
+        "course": "databaser"
+    },
+    {
+        "term": "Denormalisering",
+        "definition": "Avsiktlig duplicering av data för bättre prestanda.",
+        "course": "databaser"
+    },
+    {
+        "term": "Atomicity",
+        "definition": "Alla delar av en transaktion genomförs eller ingen alls.",
+        "course": "databaser"
+    },
+    {
+        "term": "Maintainability",
+        "definition": "Hur lätt ett system är att underhålla och uppdatera.",
+        "course": "databaser"
+    },
+    {
+        "term": "Scalability",
+        "definition": "Systemets förmåga att hantera ökad belastning.",
+        "course": "databaser"
+    },
+    {
+        "term": "Data integrity",
+        "definition": "Att data är korrekt, konsekvent och tillförlitlig.",
+        "course": "databaser"
+    },
+    {
+        "term": "NoSQL",
+        "definition": "Databaser som inte använder traditionella relationstabeller.",
+        "course": "databaser"
+    },
+    {
+        "term": "LAMP-stacken",
+        "definition": "Teknikstack: Linux, Apache, MySQL och PHP.",
+        "course": "databaser"
+    },
+    {
+        "term": "mjukvaruintegration",
+        "definition": "Process att koppla samman olika system så de kan utbyta data.",
+        "course": "databaser"
+    },
+    {
+        "term": "ORM",
+        "definition": "Verktyg som mappar databastabeller till objekt i kod.",
+        "course": "databaser"
+    },
+    {
+        "term": "ODM",
+        "definition": "Liknar ORM men används för dokumentdatabaser.",
+        "course": "databaser"
+    },
+    {
+        "term": "Prisma.io",
+        "definition": "Modernt ORM för Node.js och TypeScript.",
+        "course": "databaser"
+    },
+    {
+        "term": "Objection.js",
+        "definition": "JavaScript ORM byggt ovanpå SQL query buildern Knex.",
+        "course": "databaser"
+    },
+    {
+        "term": "TypeORM",
+        "definition": "ORM för TypeScript och JavaScript med stöd för flera databaser.",
+        "course": "databaser"
+    },
+    {
+        "term": "Sequelize",
+        "definition": "Populärt ORM för Node.js som stödjer flera SQL-databaser.",
+        "course": "databaser"
+    },
+    {
+        "term": "Vercel",
+        "definition": "Plattform för att hosta och distribuera webbappar.",
+        "course": "databaser"
+    },
+    {
+        "term": "CockroachDB",
+        "definition": "Distribuerad SQL-databas designad för hög skalbarhet.",
+        "course": "databaser"
+    },
+    {
+        "term": "PlanetScale",
+        "definition": "Molnbaserad MySQL-plattform optimerad för skalbarhet.",
+        "course": "databaser"
+    },
+    {
+        "term": "Firebase",
+        "definition": "Molnplattform från Google för backend och databaser.",
+        "course": "databaser"
+    },
+    {
+        "term": "Firestore",
+        "definition": "NoSQL-dokumentdatabas som ingår i Firebase.",
+        "course": "databaser"
+    },
+    {
+        "term": "MongooseJS",
+        "definition": "ODM-bibliotek för MongoDB i Node.js.",
+        "course": "databaser"
+    },
+    {
+        "term": "OAuth",
+        "definition": "Standard för säker auktorisering mellan tjänster.",
+        "course": "databaser"
+    },
+    {
+        "term": "JWT",
+        "definition": "Tokenformat för säker överföring av autentiseringsdata.",
+        "course": "databaser"
+    },
+    {
+        "term": "OpenID Connect",
+        "definition": "Autentiseringslager ovanpå OAuth.",
+        "course": "databaser"
+    },
+    {
+        "term": "Supabase",
+        "definition": "Backend-plattform byggd på PostgreSQL.",
+        "course": "databaser"
+    },
+    {
+        "term": "Docker",
+        "definition": "Teknik för att paketera applikationer i containrar.",
+        "course": "databaser"
+    },
+    {
+        "term": "Kubernetes",
+        "definition": "System för att hantera och skala containrar.",
+        "course": "databaser"
+    },
+    {
+        "term": "Heroku",
+        "definition": "Molnplattform för att deploya och köra applikationer.",
+        "course": "databaser"
+    },
+    {
+        "term": "Hadoop",
+        "definition": "Ramverk för att lagra och analysera stora datamängder.",
+        "course": "databaser"
+    },
+    {
+        "term": "Stripe",
+        "definition": "Betalningsplattform för onlinebetalningar.",
+        "course": "databaser"
+    },
+    {
+        "term": "SOA",
+        "definition": "Arkitektur där funktioner delas upp i fristående tjänster.",
+        "course": "databaser"
+    },
+    {
+        "term": "CMS",
+        "definition": "System för att skapa och hantera digitalt innehåll.",
+        "course": "databaser"
+    },
+    {
+        "term": "CRM",
+        "definition": "System för att hantera kundrelationer och kunddata.",
+        "course": "databaser"
+    },
+    {
+        "term": "ERP",
+        "definition": "System för att hantera företagets resurser och processer.",
+        "course": "databaser"
+    },
+    {
+        "term": "PIM",
+        "definition": "System för att hantera produktinformation centralt.",
+        "course": "databaser"
+    },
+    {
+        "term": "SAP",
+        "definition": "Stort affärssystem för ERP och företagsprocesser.",
+        "course": "databaser"
+    },
+    {
+        "term": "AD (Active Directory)",
+        "definition": "Microsoftsystem för identitet och användarhantering.",
+        "course": "databaser"
+    },
+    {
+        "term": "TDD",
+        "definition": "Utvecklingsmetod där tester skrivs innan koden.",
+        "course": "databaser"
+    },
+    {
+        "term": "CI/CD",
+        "definition": "Automatiserad process för testning och deployment av kod.",
+        "course": "databaser"
+    },
+    {
+        "term": "appwrite.io",
+        "definition": "Open-source backendplattform för appar.",
+        "course": "databaser"
+    },
+    {
+        "term": "DDL",
+        "definition": "SQL-kommandon för att definiera databasschema.",
+        "course": "databaser"
+    },
+    {
+        "term": "DML",
+        "definition": "SQL-kommandon för att manipulera data i tabeller.",
+        "course": "databaser"
+    },
+    {
+        "term": "subqueries",
+        "definition": "SQL-fråga inuti en annan fråga.",
+        "course": "databaser"
+    },
+    {
+        "term": "stored procedures",
+        "definition": "Sparade SQL-program som körs i databasen.",
+        "course": "databaser"
+    },
+    {
+        "term": "index",
+        "definition": "Datastruktur som gör databassökningar snabbare.",
+        "course": "databaser"
+    },
+    {
+        "term": "IF NOT EXISTS",
+        "definition": "SQL-villkor som skapar objekt bara om det saknas.",
+        "course": "databaser"
+    },
+    {
+        "term": "SELECT DISTINCT",
+        "definition": "SQL-kommando som returnerar unika värden.",
+        "course": "databaser"
+    },
+    {
+        "term": "CREATE INDEX",
+        "definition": "SQL-kommando för att skapa ett index.",
+        "course": "databaser"
+    },
+    {
+        "term": "WITH",
+        "definition": "SQL-syntax för att definiera temporära resultat (CTE).",
+        "course": "databaser"
+    },
+    {
+        "term": "BEGIN och END",
+        "definition": "Markerar start och slut på ett SQL-kodblock.",
+        "course": "databaser"
+    },
+    {
+        "term": "UNION",
+        "definition": "SQL-operator som kombinerar resultat från flera queries.",
+        "course": "databaser"
+    },
+    {
+        "term": "CASE",
+        "definition": "SQL-syntax för villkorlig logik.",
+        "course": "databaser"
+    },
+    {
+        "term": "NOT",
+        "definition": "Logisk operator som inverterar ett villkor.",
+        "course": "databaser"
+    },
+    {
+        "term": "MongoDB",
+        "definition": "Populär NoSQL-databas som lagrar data som dokument.",
+        "course": "databaser"
+    },
+    {
+        "term": "blob storage",
+        "definition": "Lagring för stora binära filer som bilder och videor.",
+        "course": "databaser"
+    },
+    {
+        "term": "Tabell",
+        "definition": "Struktur i en databas som lagrar data i rader och kolumner.",
+        "course": "databaser"
+    },
+    {
+        "term": "Rad (Row)",
+        "definition": "En enskild post i en tabell.",
+        "course": "databaser"
+    },
+    {
+        "term": "Kolumn (Column)",
+        "definition": "Egenskap eller attribut i en tabell.",
+        "course": "databaser"
+    },
+    {
+        "term": "Primärnyckel (Primary Key)",
+        "definition": "Unikt värde som identifierar varje rad i en tabell.",
+        "course": "databaser"
+    },
+    {
+        "term": "Främmande nyckel (Foreign Key)",
+        "definition": "Kolumn som refererar till en primärnyckel i en annan tabell.",
+        "course": "databaser"
+    },
+    {
+        "term": "Relation",
+        "definition": "Koppling mellan tabeller via nycklar.",
+        "course": "databaser"
+    },
+    {
+        "term": "Join",
+        "definition": "SQL-operation som kombinerar data från flera tabeller.",
+        "course": "databaser"
+    },
+    {
+        "term": "INNER JOIN",
+        "definition": "Returnerar rader där matchande värden finns i båda tabellerna.",
+        "course": "databaser"
+    },
+    {
+        "term": "LEFT JOIN",
+        "definition": "Returnerar alla rader från vänstra tabellen och matchande från den högra.",
+        "course": "databaser"
+    },
+    {
+        "term": "RIGHT JOIN",
+        "definition": "Returnerar alla rader från högra tabellen och matchande från den vänstra.",
+        "course": "databaser"
+    },
+    {
+        "term": "FULL JOIN",
+        "definition": "Returnerar alla rader när det finns en match i någon tabell.",
+        "course": "databaser"
+    },
+    {
+        "term": "Schema",
+        "definition": "Struktur eller organisation av tabeller i en databas.",
+        "course": "databaser"
+    },
+    {
+        "term": "Constraint",
+        "definition": "Regel som begränsar vilka data som får lagras.",
+        "course": "databaser"
+    },
+    {
+        "term": "NOT NULL",
+        "definition": "Constraint som kräver att en kolumn alltid har ett värde.",
+        "course": "databaser"
+    },
+    {
+        "term": "UNIQUE",
+        "definition": "Constraint som säkerställer att värden i en kolumn är unika.",
+        "course": "databaser"
+    },
+    {
+        "term": "DEFAULT",
+        "definition": "Standardvärde som används om inget annat anges.",
+        "course": "databaser"
+    },
+    {
+        "term": "Transaction",
+        "definition": "En serie databasoperationer som behandlas som en enhet.",
+        "course": "databaser"
+    },
+    {
+        "term": "ACID",
+        "definition": "Principer för pålitliga databastranaktioner: Atomicity, Consistency, Isolation, Durability.",
+        "course": "databaser"
+    },
+    {
+        "term": "Consistency",
+        "definition": "Databasen förblir i ett giltigt tillstånd efter en transaktion.",
+        "course": "databaser"
+    },
+    {
+        "term": "Isolation",
+        "definition": "Samtidiga transaktioner påverkar inte varandra negativt.",
+        "course": "databaser"
+    },
+    {
+        "term": "Durability",
+        "definition": "När en transaktion är klar sparas den permanent.",
+        "course": "databaser"
+    },
+    {
+        "term": "Query",
+        "definition": "Fråga till databasen för att hämta eller ändra data.",
+        "course": "databaser"
+    },
+    {
+        "term": "WHERE",
+        "definition": "SQL-sats för att filtrera rader baserat på villkor.",
+        "course": "databaser"
+    },
+    {
+        "term": "ORDER BY",
+        "definition": "Sorterar resultat från en SQL-fråga.",
+        "course": "databaser"
+    },
+    {
+        "term": "GROUP BY",
+        "definition": "Grupperar rader med samma värde i en kolumn.",
+        "course": "databaser"
+    },
+    {
+        "term": "HAVING",
+        "definition": "Filtrerar grupper skapade med GROUP BY.",
+        "course": "databaser"
+    },
+    {
+        "term": "Aggregate Function",
+        "definition": "Funktion som beräknar ett värde från flera rader, t.ex. COUNT eller SUM.",
+        "course": "databaser"
+    },
+    {
+        "term": "COUNT",
+        "definition": "SQL-funktion som räknar antal rader.",
+        "course": "databaser"
+    },
+    {
+        "term": "SUM",
+        "definition": "SQL-funktion som summerar värden i en kolumn.",
+        "course": "databaser"
+    },
+    {
+        "term": "AVG",
+        "definition": "SQL-funktion som beräknar medelvärde.",
+        "course": "databaser"
     }
 ]
