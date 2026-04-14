@@ -31,6 +31,7 @@ export function GlosSearch({
                     <option value="Agilt arbete">Agilt arbete</option>
                     <option value="apputveckling">Apputveckling</option>
                     <option value="databaser">Databaser</option>
+                    <option value="angular">Angular</option>
                 </select>
             </div>
             <label
