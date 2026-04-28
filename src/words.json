@@ -792,11 +792,6 @@
         "course": "apputveckling"
     },
     {
-        "term": "Electron",
-        "definition": "Ramverk för desktopappar med webbteknik (ex VSCode), ursprungligen från GitHub.",
-        "course": "apputveckling"
-    },
-    {
         "term": "Expo",
         "definition": "Verktyg och plattform runt React Native som förenklar utveckling.",
         "course": "apputveckling"
@@ -1129,11 +1124,6 @@
     {
         "term": "OAuth",
         "definition": "Standard för säker auktorisering mellan tjänster.",
-        "course": "databaser"
-    },
-    {
-        "term": "JWT",
-        "definition": "Tokenformat för säker överföring av autentiseringsdata.",
         "course": "databaser"
     },
     {
@@ -1810,5 +1800,235 @@
         "term": "@if",
         "definition": "Ny control flow-syntax i Angular för villkorlig rendering, ersätter *ngIf.",
         "course": "angular"
+    },
+    {
+        "term": "package.json",
+        "definition": "Projektfil som innehåller metadata, scripts och beroenden för ett Node.js-projekt.",
+        "course": "backend"
+    },
+    {
+        "term": "npm install",
+        "definition": "Installerar projektets dependencies eller specifika paket via npm.",
+        "course": "backend"
+    },
+    {
+        "term": "npm init",
+        "definition": "Skapar ett nytt package.json och initierar ett Node.js-projekt.",
+        "course": "backend"
+    },
+    {
+        "term": "dependencies",
+        "definition": "Paket som krävs för att applikationen ska fungera i produktion.",
+        "course": "backend"
+    },
+    {
+        "term": "devDependencies",
+        "definition": "Paket som endast behövs under utveckling, t.ex. testverktyg eller nodemon.",
+        "course": "backend"
+    },
+    {
+        "term": "runtime",
+        "definition": "Miljön där kod exekveras, t.ex. Node.js för JavaScript på serversidan.",
+        "course": "backend"
+    },
+    {
+        "term": "webbläsare",
+        "definition": "Program som renderar och kör frontend-kod för användaren, t.ex. Chrome.",
+        "course": "backend"
+    },
+    {
+        "term": "klient",
+        "definition": "System eller användargränssnitt som skickar requests till en server.",
+        "course": "backend"
+    },
+    {
+        "term": "server",
+        "definition": "System som hanterar requests, affärslogik och datahantering.",
+        "course": "backend"
+    },
+    {
+        "term": "Node.js",
+        "definition": "JavaScript-runtime byggd på V8 som möjliggör backendutveckling med JavaScript.",
+        "course": "backend"
+    },
+    {
+        "term": "Event loop",
+        "definition": "Node.js mekanism för att hantera asynkrona operationer utan att blockera huvudtråden.",
+        "course": "backend"
+    },
+    {
+        "term": "GUI",
+        "definition": "Graphical User Interface – visuellt användargränssnitt med knappar, menyer och grafik.",
+        "course": "backend"
+    },
+    {
+        "term": "CLI",
+        "definition": "Command Line Interface – textbaserat gränssnitt via terminal.",
+        "course": "backend"
+    },
+    {
+        "term": "CommonJS",
+        "definition": "Äldre modulsystem i Node.js som använder require och module.exports.",
+        "course": "backend"
+    },
+    {
+        "term": "ESM",
+        "definition": "Modern JavaScript-modulstandard som använder import och export.",
+        "course": "backend"
+    },
+    {
+        "term": "parse",
+        "definition": "Process att tolka och konvertera data till ett användbart format.",
+        "course": "backend"
+    },
+    {
+        "term": "JSON",
+        "definition": "JavaScript Object Notation – vanligt format för dataöverföring mellan klient och server.",
+        "course": "backend"
+    },
+    {
+        "term": "JSON.parse()",
+        "definition": "Konverterar JSON-sträng till JavaScript-objekt.",
+        "course": "backend"
+    },
+    {
+        "term": "JSON.stringify()",
+        "definition": "Konverterar JavaScript-objekt till JSON-sträng.",
+        "course": "backend"
+    },
+    {
+        "term": "Electron",
+        "definition": "Ramverk för att bygga desktopappar med webteknik som HTML, CSS och JavaScript.",
+        "course": "backend"
+    },
+    {
+        "term": "HTTP",
+        "definition": "Protokoll för kommunikation mellan klienter och servrar på webben.",
+        "course": "backend"
+    },
+    {
+        "term": "Promises",
+        "definition": "Objekt som representerar framtida resultat av asynkrona operationer.",
+        "course": "backend"
+    },
+    {
+        "term": "asynkron programmering",
+        "definition": "Kodstruktur där operationer kan köras utan att blockera resten av programmet.",
+        "course": "backend"
+    },
+    {
+        "term": "Express.js",
+        "definition": "Minimalistiskt Node.js-ramverk för att bygga servrar och API:er.",
+        "course": "backend"
+    },
+    {
+        "term": "REST API",
+        "definition": "API-arkitektur som använder HTTP-metoder för att hantera resurser.",
+        "course": "backend"
+    },
+    {
+        "term": "template engines",
+        "definition": "Verktyg som genererar dynamisk HTML på serversidan, t.ex. EJS eller Handlebars.",
+        "course": "backend"
+    },
+    {
+        "term": "CORS",
+        "definition": "Cross-Origin Resource Sharing – säkerhetsmekanism som styr resurser mellan olika domäner.",
+        "course": "backend"
+    },
+    {
+        "term": "middleware",
+        "definition": "Funktioner i Express som körs mellan request och response.",
+        "course": "backend"
+    },
+    {
+        "term": "request",
+        "definition": "HTTP-förfrågan från klient till server.",
+        "course": "backend"
+    },
+    {
+        "term": "response",
+        "definition": "Serverns svar på en klientförfrågan.",
+        "course": "backend"
+    },
+    {
+        "term": "endpoint",
+        "definition": "Specifik URL i ett API där resurser kan nås.",
+        "course": "backend"
+    },
+    {
+        "term": "routing",
+        "definition": "Hantering av olika URL-routes i en serverapplikation.",
+        "course": "backend"
+    },
+    {
+        "term": "CRUD",
+        "definition": "Create, Read, Update, Delete – grundläggande databasoperationer.",
+        "course": "backend"
+    },
+    {
+        "term": "nodemon",
+        "definition": "Utvecklingsverktyg som automatiskt startar om Node-servern vid kodändringar.",
+        "course": "backend"
+    },
+    {
+        "term": "environment variables",
+        "definition": "Konfigurationsvärden som lagras utanför koden, t.ex. API-nycklar.",
+        "course": "backend"
+    },
+    {
+        "term": ".env",
+        "definition": "Fil som används för att lagra miljövariabler lokalt.",
+        "course": "backend"
+    },
+    {
+        "term": "process.env",
+        "definition": "Node.js objekt för att läsa miljövariabler.",
+        "course": "backend"
+    },
+    {
+        "term": "status code",
+        "definition": "HTTP-kod som beskriver resultatet av en request, t.ex. 200 eller 404.",
+        "course": "backend"
+    },
+    {
+        "term": "authentication",
+        "definition": "Verifiering av användaridentitet.",
+        "course": "backend"
+    },
+    {
+        "term": "authorization",
+        "definition": "Kontroll av vilka resurser en användare får åtkomst till.",
+        "course": "backend"
+    },
+    {
+        "term": "JWT",
+        "definition": "JSON Web Token - tokenbaserad metod för autentisering.",
+        "course": "backend"
+    },
+    {
+        "term": "bcrypt",
+        "definition": "Bibliotek för säker hashning av lösenord.",
+        "course": "backend"
+    },
+    {
+        "term": "hashing",
+        "definition": "Process som omvandlar data till en säker, irreversibel representation.",
+        "course": "backend"
+    },
+    {
+        "term": "API",
+        "definition": "Application Programming Interface – gränssnitt för kommunikation mellan system.",
+        "course": "backend"
+    },
+    {
+        "term": "fetch",
+        "definition": "JavaScript-metod för att göra HTTP-anrop.",
+        "course": "backend"
+    },
+    {
+        "term": "Postman",
+        "definition": "Verktyg för att testa och dokumentera API:er.",
+        "course": "backend"
     }
 ]

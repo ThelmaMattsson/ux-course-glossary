@@ -28,6 +28,7 @@ export function FilterCourse({ course, onCourseChange }: FilterCourseProps) {
                     <option value="apputveckling">Apputveckling</option>
                     <option value="databaser">Databaser</option>
                     <option value="angular">Angular</option>
+                    <option value="backend">Backend</option>
                 </select>
             </div>
         </div>
